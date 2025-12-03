@@ -1,1 +1,4 @@
-Project summary will be updated after demo video.
+This project is a cloud-native, AI-based Missing Child/Person Identification Network built using AWS services like Rekognition, Lambda, API Gateway, S3, SNS, DynamoDB, and Amazon Location Service. 
+It allows users to upload images, which are then analyzed through Rekognition for face matching, alerts are triggered via SNS, and sightings are tracked using Location Service. 
+The architecture includes a static frontend demo, a scalable serverless backend, NFC support, and secured data handling using IAM and KMS. 
+This system is designed for NGOs, police, and emergency teams for real-time identification and rescue workflows.
