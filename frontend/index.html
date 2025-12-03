@@ -1,1 +1,46 @@
-<!DOCTYPE html><html><body>Frontend Coming Soon</body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Missing Person Identification - Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input {
+      margin-top: 20px;
+    }
+    #resultBox {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Global Missing Child/Person Identification Network</h2>
+  <p>Demo prototype for AWS Rekognition-based matching</p>
+
+  <input type="file" id="imageUpload"><br><br>
+  <button onclick="showResult()">Submit for Matching</button>
+
+  <div id="resultBox">
+    <h3>Match Result</h3>
+    <p id="resultText">Upload an image and click submit.</p>
+  </div>
+
+  <script>
+    function showResult() {
+      document.getElementById("resultText").innerHTML =
+        "Demo Match Result: <b>No Match Found</b> (Mocked for prototype)";
+    }
+  </script>
+
+</body>
+</html>
+
